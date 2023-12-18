@@ -1,0 +1,66 @@
+/* PollPercentage.css */
+.poll-percentage-container {
+  margin-top: 20px;
+}
+
+.poll-option-percentage {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.poll-option-text {
+  margin-right: 10px;
+}
+
+.poll-percentage-bar {
+  background-color: blue; /* Use your desired color */
+  height: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 5px; /* Optional */
+}
+.comments {
+  font-size: 0.85em; /* Smaller text for the comment count */
+  color: #757575; /* A mid-tone grey color for the text */
+  margin-left: 72px; /* Adds space to the left of the comments, adjust as needed */
+  display: inline-flex; /* Uses inline-flex to keep it in line with other text but also allows centering of child elements */
+  align-items: center; /* Centers the children vertically */
+  gap: 5px; /* Adds space between child elements */
+}
+.poll-percentage-bar {
+  /* Styles for the percentage bar itself */
+  background-color: #007bff; /* Example color */
+  height: 20px; /* Example height */
+}
+.poll-option {
+  /* Your existing styles */
+  padding: 10px;
+  margin-bottom: 5px;
+  display: inline-block; /* Align with the percentage */
+}
+.Percentage {
+  display: inline-block; /* Allows the percentage to sit next to the button */
+  padding: 10px;
+  margin-left: 10px; /* Spacing between the button and the percentage */
+  color: #555; /* Change as needed */
+  font-weight: bold;
+  min-width: 50px; /* Ensures alignment even with smaller percentages */
+  text-align: right; /* Aligns the percentage text to the right */
+}
+.poll-option-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; /* Adjust as needed */
+}
+
+.poll-option {
+  /* Style your button as before */
+}
+
+.percentage {
+  margin-left: 10px; /* Space between button and percentage */
+  /* Other styles for percentage text */
+}
